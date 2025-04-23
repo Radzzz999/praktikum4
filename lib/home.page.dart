@@ -18,3 +18,19 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text('Selamat datang di Home Page!'),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const OrderPage()),
+                );
+              },
+              child: const Text('Order Now'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
