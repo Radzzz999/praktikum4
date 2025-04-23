@@ -40,3 +40,11 @@ class DetailOrderPage extends StatelessWidget {
                   (route) => false,
                 );
               },
+              child: const Text('Finish Order'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
