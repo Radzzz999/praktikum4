@@ -1,6 +1,6 @@
-import 'package:_030_act4/home_page.dart';
-import 'package:_030_act4/register_page.dart';
 import 'package:flutter/material.dart';
+import 'package:praktikum4/home.page.dart';
+import 'package:praktikum4/register_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
