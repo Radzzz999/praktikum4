@@ -1,7 +1,7 @@
-import 'package:_030_act4/Login.dart';
-import 'package:_030_act4/home_page.dart';
-import 'package:_030_act4/order_page.dart';
 import 'package:flutter/material.dart';
+import 'package:praktikum4/home.page.dart';
+import 'package:praktikum4/login.dart';
+import 'package:praktikum4/order_page.dart';
 
 
 void main() {
